@@ -23,7 +23,7 @@ by changing pixels:
 .. raw:: html
 
    <div class="align-center" style="margin-top:1em;">
-   <iframe src="https://www.youtube-nocookie.com/embed/15aqFQQVBWU" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+   <iframe src="https://www.youtube-nocookie.com/embed/15aqFQQVBWU" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="Images, Pixels and RGB"></iframe>
    </div>
 
 

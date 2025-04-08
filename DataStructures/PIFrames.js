@@ -434,7 +434,7 @@
         buildiFrames: function(question) {
           var src = question.src;
           var iframe = $(
-            `<iframe id = "iframe" width="91%" height="600px" src=${src}></iframe>`
+            `<iframe id = "iframe" width="91%" height="600px" src=${src} title="Peer Instruction Activity"></iframe>`
           );
 
           return iframe;

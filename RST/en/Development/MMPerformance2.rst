@@ -16,7 +16,7 @@ worst fit |---| perform in practice?
 .. raw:: html
 
    <center> 
-   <iframe id="FirstFit_iframe" 
+   <iframe id="FirstFit_iframe" title="First Fit Performance"
         src="http://research.cs.vt.edu/AVresearch/MMtutorial/performance.html"
         width="800" height="600"
         frameborder="1" marginwidth="0" marginheight="0"

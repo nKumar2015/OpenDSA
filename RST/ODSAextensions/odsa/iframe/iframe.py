@@ -11,19 +11,19 @@ def setup(app):
   app.add_directive('iframe',iframe)
 
 IFRAME_HTML = '''\
-  <div style="text-align: center;">
+  <div class="align-center" style="margin-top:1em;">
   <iframe id="%(name)s" title="%(name)s"
       src="%(iframe_src)s"
       width="%(width)s" height="%(height)s"
       frameborder="1" marginwidth="0" marginheight="0"
-    scrolling="no">
+    scrolling="no" %(extras)s>
   </iframe>
   </div>
 '''
 
 class iframe(Directive):
   required_arguments = 1
-  optional_arguments = 4
+  optional_arguments = 5
   final_argument_whitespace = True
   has_content = True
   option_spec = {
@@ -31,6 +31,7 @@ class iframe(Directive):
                   'width': directives.unchanged,
                   'name': directives.unchanged,
                   'absolute_url': directives.flag,
+                  'extras': directives.unchanged,
                   }
 
   def run(self):
@@ -44,6 +45,9 @@ class iframe(Directive):
 
     if 'name' not in self.options:
       self.options['name'] = os.path.basename(iframe_src).partition('.')[0]
+      
+    if 'extras' not in self.options:
+      self.options['extras'] = "" 
 
     if 'absolute_url' in self.options:
       self.options['iframe_src'] = iframe_src

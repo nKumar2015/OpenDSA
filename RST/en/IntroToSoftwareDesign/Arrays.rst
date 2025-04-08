@@ -40,7 +40,7 @@ diagrams like this:
 .. raw:: html
 
    <div class="align-center" style="margin-top:1em;">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/ei_4Nt7XWOw?start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ei_4Nt7XWOw?start=21" title="Java arrays" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
 
@@ -219,7 +219,7 @@ Arrays Compared to Lists (or ArrayList)
 .. raw:: html
 
    <div class="align-center">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/NbYgm0r7u6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/NbYgm0r7u6o" title="Arrays versus ArrayList in Java" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
 
@@ -306,7 +306,7 @@ an ``ArrayIndexOutOfBoundsException``.
 .. raw:: html
 
    <div class="align-center">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/1hUUsuDfmSw?start=40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/1hUUsuDfmSw?start=40" title="Array of Java objects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
 
@@ -625,7 +625,7 @@ the web for ``java.util.Arrays``.
 .. raw:: html
 
    <div class="align-center">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/GQWbUdb4d58?start=46" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/GQWbUdb4d58?start=46" title="Java Array Methods" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
 
@@ -763,7 +763,7 @@ explain arrays and how they might be used in a problem.
 .. raw:: html
 
    <div class="align-center">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/xs9HnwBAg14?start=96&end=755" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/xs9HnwBAg14?start=96&end=755" title="Fixed Sized Collections" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
 

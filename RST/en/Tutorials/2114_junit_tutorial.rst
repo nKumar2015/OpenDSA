@@ -66,12 +66,12 @@ A simplified test class example for the Student class:
     
         public void setUp()
         {
-            janeDoe = new Student(“Jane Doe”);
+            janeDoe = new Student("Jane Doe");
         }
     
         public void testGetName()
         {
-            assertEquals(“Jane Doe”, janeDoe.getName());
+            assertEquals("Jane Doe", janeDoe.getName());
         }
     }
     
@@ -159,23 +159,23 @@ Clarification for edge and average cases- For a list that contains 100 values, y
 
     if ( score >= 90 )
     {
-        System.out.println( “Your grade is an A”);
+        System.out.println( "Your grade is an A");
     }
     else if ( score >= 80 )
     {
-        System.out.println( “Your grade is a B”);
+        System.out.println( "Your grade is a B");
     }
     else if ( score >= 70 )
     {
-        System.out.println( “Your grade is a C”);
+        System.out.println( "Your grade is a C");
     }
     else if ( score >= 60 )
     {
-        System.out.println( “Your grade is a D”);
+        System.out.println( "Your grade is a D");
     }
     else
     {
-        System.out.println( “Your grade is an F”);
+        System.out.println( "Your grade is an F");
     }
     
 Your test class would have to test for all 5 of the above possibilities in order to execute every single line of code in the block of if-else statements.
@@ -268,9 +268,9 @@ Example: Say you want to make sure that the method ``getName()`` is returning th
 
 Use an assertion statement:
 
-``assertEquals(“Jane Doe”, janeDoe.getName());``
+``assertEquals("Jane Doe", janeDoe.getName());``
 
-Warning If you do NOT have any assertion statements inside a test method, it will always evaluate as “true” when run as a JUnit test. To prevent this, you can add the line:
+Warning If you do NOT have any assertion statements inside a test method, it will always evaluate as "true" when run as a JUnit test. To prevent this, you can add the line:
 
 ``fail("Not yet implemented");``
 
@@ -282,7 +282,7 @@ Testing Exceptions
 
 Use a ``try-catch`` block in your testing to check if your code has thrown the right exception. In your try block, you should call the method that results in an exception being thrown. The catch block should catch the exception thrown. Then assert that the exception exists, is the correct exception, and (if applicable) contains the correct message.
 
-**Example**: Say you are trying to access an element in a data structure that cannot be accessed by using an iterator object, so you are testing to check if a NoSuchElementException is thrown with the message “There are no more elements left to iterate over.”. The following inside of a test method will determine if you caught the right exception correctly:
+**Example**: Say you are trying to access an element in a data structure that cannot be accessed by using an iterator object, so you are testing to check if a NoSuchElementException is thrown with the message "There are no more elements left to iterate over.". The following inside of a test method will determine if you caught the right exception correctly:
 
 **Example**:
 
@@ -297,7 +297,7 @@ Use a ``try-catch`` block in your testing to check if your code has thrown the r
     }
     catch (Exception exception)
     {
-        //”Catch” and store the exception
+        //"Catch" and store the exception
         thrown = exception;
     }
     //assert that an exception was thrown

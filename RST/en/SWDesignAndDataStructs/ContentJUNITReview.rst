@@ -27,7 +27,7 @@ In this discussion we will be revisiting good testing practices with an example 
    
        Download to run and explore the java file (see below) from the video on your own in eclipse. You may download the standalone \*.java file for this example. To run the standalone \*.java file you will need to 
            1) create a new Eclipse project, then 
-           2) create a package within the project called “example” (the package named at the top of the class MUST match the package the file is placed in within the Eclipse project), and finally 
+           2) create a package within the project called "example" (the package named at the top of the class MUST match the package the file is placed in within the Eclipse project), and finally 
            3) download and import the standalone \*.java file(s) to the created package.
    
       .. raw:: html
@@ -200,12 +200,12 @@ To make a JUnit test class in eclipse:
 
       public void setUp()
       {
-         janeDoe = new Student(“Jane Doe”);
+         janeDoe = new Student("Jane Doe");
       }
 
       public void testGetName()
       {
-         assertEquals(“Jane Doe”, janeDoe.getName());
+         assertEquals("Jane Doe", janeDoe.getName());
       }
    }
 
@@ -282,23 +282,23 @@ Example: say we had the following:
 
    if ( score >= 90 )
    {
-      System.out.println( “Your grade is an A”);
+      System.out.println( "Your grade is an A");
    }
    else if ( score >= 80 )
    {
-      System.out.println( “Your grade is a B”);
+      System.out.println( "Your grade is a B");
    }
    else if ( score >= 70 )
    {
-      System.out.println( “Your grade is a C”);
+      System.out.println( "Your grade is a C");
    }
    else if ( score >= 60 )
    {
-      System.out.println( “Your grade is a D”);
+      System.out.println( "Your grade is a D");
    }
    else
    {
-      System.out.println( “Your grade is an F”);
+      System.out.println( "Your grade is an F");
    }
 
 Your test class would have to test for all 5 of the above possibilities in order to execute every single line of code in the block of if-else statements.
@@ -376,7 +376,7 @@ If you throw them, then catch them in your testing!
 
 Use a `try-catch` block in your testing to check if your code has thrown the right exception. In your try block, you should call the method that results in an exception being thrown. The catch block should catch the exception thrown. Then assert that the exception exists, is the correct exception, and (if applicable) contains the correct message.
 
-Example: Say you are trying to access an element in a data structure that cannot be accessed by using an iterator object, so you are testing to check if a NoSuchElementException is thrown with the message “There are no more elements left to iterate over.”. The following inside of a test method will determine if you caught the right exception correctly:
+Example: Say you are trying to access an element in a data structure that cannot be accessed by using an iterator object, so you are testing to check if a NoSuchElementException is thrown with the message "There are no more elements left to iterate over.". The following inside of a test method will determine if you caught the right exception correctly:
 
 Example:
 
@@ -391,7 +391,7 @@ Example:
    }
    catch (Exception exception)
    {
-      //”Catch” and store the exception
+      //"Catch" and store the exception
       thrown = exception;
    }
    //assert that an exception was thrown

@@ -12,7 +12,7 @@ def setup(app):
 
 IFRAME_HTML = '''\
   <div style="text-align: center;">
-  <iframe id="%(name)s"
+  <iframe id="%(name)s" title="%(name)s"
       src="%(iframe_src)s"
       width="%(width)s" height="%(height)s"
       frameborder="1" marginwidth="0" marginheight="0"

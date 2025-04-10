@@ -23,6 +23,7 @@ your web browser, and looks like this:
 
 .. odsafig:: Images/LightBotLevel2.png
    :align: center
+   :alt: The LightBot level 2 board with Andy facing southeast
 
 In the LightBot game, you create a **program** to control a little robot to
 solve a simple task in the miniature block-based world where the LightBot exists.
@@ -73,6 +74,7 @@ location on a grid using x and y coordinates:
 
 .. odsafig:: Images/micro-world-coordinates.png
    :align: center
+   :alt: A 2D grid, with the  0,0 origin upper left, and the x-axis values increasing as you move to right, and the y-axis values increasing as you move down. 
 
 We will use a variation of **Cartesian coordinates** to write any location as
 an *(x, y)* pair, where x (the first coordinate) represents the distance from
@@ -142,19 +144,19 @@ At its most basic, a computer program is simply a sequence of instructions for a
     <table class="docutils align-default" style="margin-bottom:1em;">
     <thead><tr><th>Symbol</th><th>Textual Program Statement (Method Call)</th></tr></thead>
     <tbody>
-    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-move.png"/></td>
+    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-move.png"/ alt="Arrow pointing up indicating moving the lightbot"></td>
     <td><code>andy.move();</code></td></tr>
-     <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-right.png"/></td>
+     <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-right.png"/ alt="Clockwise curved arrow indicating right turn"></td>
     <td><code>andy.turnRight();</code></td></tr>
-    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-left.png"/></td>
+    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-left.png"/ alt="Counterclockwise curved arrow indicating left turn"></td>
     <td><code>andy.turnLeft();</code></td></tr>
-    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-jump.png"/></td>
+    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-jump.png"/ alt="Button indicating a lightbot jump"></td>
     <td><code>andy.jump();</code></td></tr>
-    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-light.png"/></td>
+    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-light.png"/ alt="Lightbulb indicating to turn on the lightbot light"></td>
     <td><code>andy.turnLightOn();</code></td></tr>
-    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-f1.png"/></td>
+    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-f1.png"/ alt="function 1 indictor></td>
     <td><code>andy.f1();</code></td></tr>
-    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-f2.png"/></td>
+    <tr><td><img src="https://courses.cs.vt.edu/~cs1114/booklet//img/light-bot-f2.png"/ alt="Function 2 indicator"></td>
     <td><code>andy.f2();</code></td></tr>
     </tbody>
     </table>
@@ -163,6 +165,7 @@ Each action is phrased as a request to an object that performs the desired behav
 
 .. odsafig:: Images/LightBotLevel2.png
    :align: center
+   :alt: The LightBot level 2 board with Andy facing southeast
 
 One solution to this level is:
 

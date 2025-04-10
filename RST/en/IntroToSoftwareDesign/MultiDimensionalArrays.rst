@@ -30,11 +30,13 @@ if we imagine each individual "row" in the grid is its own one-dimensional
 array, then a rectangular grid is actually a series of rows arranged in
 a line--an array whose components are themselves arrays.
 
-.. raw:: html
 
-   <div class="align-center" style="margin-top:1em;">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/alwukGslBG8" title="Java 2D arrays" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
+.. iframe:: https://www.youtube.com/embed/alwukGslBG8
+    :name: Java 2D arrays
+    :width: 560
+    :height: 315
+    :extras: allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+    :absolute_url:
 
 For example, you might use a two-dimensional of array (or 2D array, for short)
 if you are doing a scientific

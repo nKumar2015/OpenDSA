@@ -155,7 +155,7 @@ Today's Homework
 
 * Look at Canvas
 * Look at Piazza site, make sure you are enrolled there
-* Look at Project 1 spec: Will discuss next time
+* Look at Project 1 spec: We will discuss next time
 * Do Chapter 1 exercises in OpenDSA by 11:00pm Thursday (in 2 days)
 
 

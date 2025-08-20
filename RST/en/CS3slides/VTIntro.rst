@@ -21,6 +21,31 @@ Introduction
   * Course introduction (OpenDSA Chapter 1)
 
 
+Analysis: Worst Case
+--------------------
+.. revealjs-slide::
+
+.. inlineav:: InsertionSortWorstCaseCON ss
+   :long_name: Insertion Sort Worst Case Slideshow
+   :links: AV/Sorting/InsertionSortWorstCaseCON.css
+   :scripts: AV/Sorting/InsertionSortWorstCaseCON.js
+   :output: show
+
+
+
+Administration stuff
+--------------------
+
+.. revealjs-slide::
+
+* Sign-in sheet (be sure to sign-in on one of them)
+* Get a copy of the syllabus
+* Force Add System:
+
+  * https://cs.vt.edu/Academics/Undergraduate/ForceAdd.html/
+  * See at end "By Permission"
+
+
 Course Mechanics
 ----------------
 
@@ -54,9 +79,8 @@ Role in the Curriculum
 
 * To do well, you must be able to handle both
 
-  * Programming (we focus on projects with dynamic memory allocation
-    and file processing, and they have significant design challenges)
-
+  * Programming (we focus on projects with dynamic memory allocation and
+    file processing, and they have significant design challenges)
   * Content, theory and analysis
 
 * The projects test programming proficiencies
@@ -113,6 +137,12 @@ Milestones
   * Second due about 2 weeks before due date
   * Third due about 1 week before due date
 
+
+  * Intermediate deliverables with due dates
+  * First due at end of first week
+  * Second due about 2 weeks before due date
+  * Third due about 1 week before due date
+
 * Milestones designed to encourage incremental development
 * In previous semesters, milestones had the effect of boosting the final
   grade of the middle third of the class by about a full letter grade.
@@ -125,5 +155,16 @@ Today's Homework
 
 * Look at Canvas
 * Look at Piazza site, make sure you are enrolled there
-* Look at Project 1 spec: Will discuss next time
+* Look at Project 1 spec: We will discuss next time
 * Do Chapter 1 exercises in OpenDSA by 11:00pm Thursday (in 2 days)
+
+
+Before you leave today
+----------------------
+
+.. revealjs-slide::
+
+* Put your name and PID on sign-up sheet
+* If you need to force add the course:
+
+  * https://cs.vt.edu/Academics/Undergraduate/ForceAdd.html
